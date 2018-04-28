@@ -37,7 +37,7 @@ build: $(APP)
 debug: $(APP)-g
 
 $(APP): $(OBJECTS) $(ITENSOR_LIBS)
-	$(CCCOM) $(CCFLAGS) $(OBJECTS) -o $(APP) $(LIBFLAGS)
+	$(CCCOM) $(CCFLAGS) $(OBJECTS) -o $(APP).js $(LIBFLAGS)
 
 $(APP)-g: mkdebugdir $(GOBJECTS) $(ITENSOR_GLIBS)
 	$(CCCOM) $(CCGFLAGS) $(GOBJECTS) -o $(APP)-g $(LIBGFLAGS)
