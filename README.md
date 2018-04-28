@@ -16,4 +16,4 @@ Install Emscripten following these instructions
 Add `EMSCRIPTEN` home path to  `Path` environment variable
 
 ## Make Javascrpit file
-Make itensor lib as normal and then move to the tutorials and run `emmake make` to build javascript file (Only for tutorial 01 currently)
+Make itensor lib as norma. Build tutorials by running `emmake make` to create javascript file (Only for tutorial 01 currently)
