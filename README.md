@@ -8,3 +8,9 @@ automatically find each other and contract. This makes it easy to transcribe
 tensor network diagrams into correct, efficient code.
 
 Installation instructions can be found in the INSTALL file.
+
+## Emscipten Installation
+Install Emscripten following these instructions
+`https://kripken.github.io/emscripten-site/docs/getting_started/downloads.html`
+
+Export `EMSCRIPTEN` path to Emscripten home directory
