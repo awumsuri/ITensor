@@ -13,7 +13,7 @@ Installation instructions can be found in the INSTALL file.
 Install Emscripten following these instructions
 `https://kripken.github.io/emscripten-site/docs/getting_started/downloads.html`
 
-Export `EMSCRIPTEN` path to Emscripten home directory
+Add `EMSCRIPTEN` home path to  `Path` environment variable
 
 ## Make Javascrpit file
 Make itensor lib as normal and then move to the tutorials and run `emmake make` to build javascript file (Only for tutorial 01 currently)
